@@ -55,17 +55,70 @@ header{
 	background-color: grey;
 	margin-right: 20px;
 }
+.video{
+	margin-bottom: 30px;
+}
+
 .tour{
 	margin-left: 15px;
 }
 .tour h1{
-	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 }
-.tour h2{
-	font-size: 20px;
-	margin-bottom: 40px;
+.news-list{
+	
 }
+.news-list h2{
+	margin-top: 30px;
+	font-size: 17px;
+	text-align: center;
+}
+.news-list p{
+	width: 90%;
+	text-align: justify;
+	margin-left: 5%;
+}
+.latest{
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.news-image{
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*-------------team page----------*/
+.rammstein{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.rammstein-pic{
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+}
+.rammstein h1{
+	text-align: center;
+}
+.rammstein p{
+	text-align: justify;
+	width: 90%;
+}
+.more{
+	color: ;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background-color: #121112;
+	margin-bottom: 40px; 
+}
+
 .member-head{
 	margin-left: 15px;
 	margin-bottom: 20px;
@@ -112,12 +165,11 @@ td{
 tr:nth-child(even) {
   background-color: #121112;
 }
-.cont{
-	margin-top: 10px;
-	padding: 10px 20px;
-	background-color: #121112;
-	border-radius: 4px;
-}
+
+
+
+
+/*------footer------*/
 footer{
 	display: flex;
 	flex-direction: column;
