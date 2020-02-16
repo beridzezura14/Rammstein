@@ -1,7 +1,7 @@
 *{
 	text-decoration: none;
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 body{
 	background-color:black;
@@ -56,7 +56,7 @@ header{
 	margin-right: 20px;
 }
 .tour{
-	margin-left: 5px;
+	margin-left: 15px;
 }
 .tour h1{
 	font-size: 30px;
@@ -65,4 +65,85 @@ header{
 .tour h2{
 	font-size: 20px;
 	margin-bottom: 40px;
+}
+.member-head{
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+.members-row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.member{
+	width: 90%;
+	height: 90%;
+}
+.members-row h4{
+	margin-left: 5px;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+.members-row p{
+	width: 90%;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+.line-2{
+	margin: auto;
+	width: 90%;
+	height: 3px;
+	background-color: grey;
+}
+.albums{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.albums h5{
+	text-align: center;
+	font-size: 23px;
+}
+td{
+	padding: 0 35px;
+	line-height: 30px;
+}
+tr:nth-child(even) {
+  background-color: #121112;
+}
+.cont{
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #121112;
+	border-radius: 4px;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+}
+.creator{
+	text-align: center;
+}
+.fa-facebook-square, .fa-youtube, .fa-instagram{
+  cursor: pointer;
+  color: grey;
+  padding: 0 10px;
+  font-size: 17px;
+}
+.fa-facebook-square:hover{
+  color: #083b66;
+}
+.fa-youtube:hover{
+  color: #e02424;
+}
+.fa-instagram:hover{
+  color: pink;
+}
+.create{
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
 }
